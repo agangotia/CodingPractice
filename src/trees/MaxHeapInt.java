@@ -138,9 +138,11 @@ public class MaxHeapInt {
 
         MaxHeapInt obj = new MaxHeapInt();
         obj.addInteger(2);
+        obj.addInteger(15);
         obj.addInteger(5);
         obj.addInteger(7);
         obj.addInteger(9);
+        obj.addInteger(3);
         System.out.println(obj.removeInteger());
         System.out.println(obj.removeInteger());
         System.out.println(obj.removeInteger());
